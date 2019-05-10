@@ -133,7 +133,9 @@ window.onload= function(){
 					localStorage.setItem( "prolist" , JSON.stringify( storageArr ) );
 					//页面数据同步修改
 					$(this).parent().find("#input").val(pro.number)
+					$(this).parent().next().html( pro.number * pro.price ) 
 					settle();
+					
 				}
 			}
 		})
