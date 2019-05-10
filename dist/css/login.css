@@ -1,0 +1,245 @@
+@charset "UTF-8";
+body,
+ol,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+th,
+td,
+dl,
+dd,
+form,
+fieldset,
+legend,
+input,
+textarea,
+select {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font: 12px "宋体","Arial Narrow",HELVETICA;
+  background: #fff; }
+
+a {
+  color: #172c45;
+  text-decoration: none; }
+
+a:hover {
+  color: #cd0200; }
+
+em {
+  font-style: normal; }
+
+li {
+  list-style: none; }
+
+img {
+  border: 0;
+  vertical-align: middle; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+p {
+  word-wrap: break-word; }
+
+i {
+  font-style: normal; }
+
+li, span, i, img, a {
+  cursor: pointer; }
+
+.noborder {
+  border: 0; }
+
+.left {
+  floaT: left; }
+
+.right {
+  float: right; }
+
+.clearBoth {
+  clear: both; }
+
+/*@mixin wh($width,$height){
+    width: $width;
+    height:$height;
+}
+*/
+#box {
+  width: 100%;
+  height: auto; }
+
+#img {
+  width: 1200px;
+  height: 80px;
+  margin: 0 auto; }
+  #img img {
+    margin-left: 280px;
+    margin-top: 12px; }
+
+header {
+  width: 100%;
+  height: 400px;
+  margin: 0 auto;
+  position: relative; }
+  header img {
+    width: 100%;
+    height: 100%; }
+  header #login_box {
+    width: 355px;
+    height: 395px;
+    padding: 33px 39px 25px;
+    border: 1px solid #CCCCCC;
+    position: absolute;
+    right: 120px;
+    top: 38px;
+    background: #FFFFFF; }
+    header #login_box > b {
+      font-size: 18px;
+      line-height: 72px;
+      color: #666666; }
+    header #login_box > span {
+      color: #666666;
+      margin-left: 25px; }
+    header #login_box > a {
+      color: #4496ee; }
+    header #login_box > div {
+      width: 348px;
+      height: 40px;
+      border: 1px solid #CCCCCC;
+      margin: 10px 0; }
+      header #login_box > div i {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        float: left; }
+      header #login_box > div input {
+        float: right;
+        width: 300px;
+        height: 100%;
+        border: none;
+        outline: none;
+        color: #666666;
+        font-size: 16px; }
+    header #login_box div:nth-child(4) i {
+      background: url(../image/iconlogin2.png) no-repeat 0 0; }
+    header #login_box div:nth-child(5) i {
+      background: url(../image/iconlogin2.png) no-repeat -40px 0; }
+    header #login_box div:nth-child(6) i {
+      background: url(../image/iconlogin2.png) no-repeat -40px 0; }
+    header #login_box div:nth-child(6) {
+      position: relative;
+      width: 200px; }
+      header #login_box div:nth-child(6) input {
+        width: 152px; }
+      header #login_box div:nth-child(6) em {
+        width: 120px;
+        height: 40px;
+        display: block;
+        position: absolute;
+        right: -136px;
+        top: 0; }
+        header #login_box div:nth-child(6) em img {
+          width: 60px;
+          height: 40px;
+          border: none;
+          float: left; }
+        header #login_box div:nth-child(6) em a {
+          float: right;
+          color: #666666;
+          margin-top: 6px; }
+    header #login_box div:nth-child(7) {
+      height: 16px;
+      border: none; }
+      header #login_box div:nth-child(7) input {
+        width: 16px;
+        height: 16px;
+        float: left; }
+      header #login_box div:nth-child(7) span {
+        float: left; }
+      header #login_box div:nth-child(7) a {
+        float: right; }
+    header #login_box p {
+      display: block;
+      width: 350px;
+      height: 40px;
+      line-height: 40px;
+      background: #4496ee;
+      margin-top: 15px;
+      font-size: 16px;
+      font-weight: bold;
+      letter-spacing: 5px;
+      cursor: pointer;
+      text-align: center;
+      color: #FFFFFF; }
+    header #login_box h4 {
+      color: #666666;
+      margin-top: 20px; }
+    header #login_box div:last-child {
+      border: none;
+      width: 242px;
+      height: 17px; }
+      header #login_box div:last-child strong {
+        float: left;
+        display: inline-block;
+        width: 24px;
+        height: 17px; }
+      header #login_box div:last-child strong:nth-child(1) {
+        background: url(../image/iconlogin2.png) no-repeat -82px 0; }
+      header #login_box div:last-child strong:nth-child(4) {
+        background: url(../image/iconlogin2.png) no-repeat -82px -23px; }
+      header #login_box div:last-child strong:nth-child(7) {
+        background: url(../image/iconlogin2.png) no-repeat -82px -45px; }
+      header #login_box div:last-child a {
+        margin-top: 3px;
+        font-size: 10px;
+        float: left; }
+      header #login_box div:last-child span {
+        font-size: 10px;
+        float: left;
+        margin: 3px; }
+      header #login_box div:last-child i {
+        width: 242px;
+        height: 20px;
+        background: pink;
+        border: 1px solid red;
+        position: absolute;
+        left: 40px;
+        top: 84px;
+        display: none;
+        color: red; }
+
+#copy {
+  width: 1200px;
+  height: 156px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 100px; }
+  #copy a {
+    line-height: 34px;
+    color: #666666; }
+    #copy a:hover {
+      color: dodgerblue; }
+  #copy span {
+    margin: 0 10px;
+    color: #666666; }
+  #copy p:nth-child(2) {
+    line-height: 24px;
+    color: #666666; }
+  #copy p:nth-child(3) {
+    color: #666666;
+    line-height: 16px; }
+  #copy i {
+    position: relative;
+    float: right;
+    right: 260px;
+    bottom: 40px; }

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="dist/css/com_bottom.css"/>
+		<link rel="stylesheet" type="text/css" href="dist/css/register.css"/>
+	</head>
+	<body>
+		<div id="header_box">
+			<header>
+				<img src="dist/image/logo.png"/>
+				<span>Hi，欢迎注册</span>
+			</header>
+		</div>
+		<div id="article_box" >
+			<article>
+				<form action="./login.html" method="post">
+					<p>
+						<b><em>*</em>用户名</b>
+						<input type="text" name="" id="" value="" />
+						<span>4-20位字符、支持汉字、字母、数字及"-"-组合</span>
+					</p>
+					<p>
+						<b><em>*</em>请设置密码</b>
+						<input type="password" name="" id="" value="" />
+						<span>6-20位，建议由字母、数字、和符号两种以上组合</span>
+					</p>
+					<p>
+						<b><em>*</em>请确认密码</b>
+						<input type="password" name="" id="" value="" />
+						<span>两次密码输入不一致</span>
+					</p>
+					<p>
+						<b><em>*</em>验证手机</b>
+						<input type="text" name="" id="" value="" />
+						<span>输入的手机号码有误</span>
+					</p>
+					<p>
+						<b><em>*</em>验证码</b>
+						<input type="text" name="" id="verify" value="" />
+						<img src="dist/image/gillette.jpg" id = "img"/>
+						<i>看不清楚？<a href="javascript:;" id="exchange">换一张</a></i>
+						<span>验证码错误</span>
+					</p>
+					<p>
+						<b><em>*</em>短信验证码</b>
+						<input type="text" name="" id="" value="" />
+						<a id = "gain">获取短信验证码</a>
+						<span>请输入验证码</span>
+					</p>
+					<input id="protocol_01" checked="checked" type="checkbox">
+					<i>我已阅读并同意<span>《金象网用户注册协议》</span><em id = "clause">请接受服务条款</em></i>
+					<br/>
+					
+					<input id = "sub" type="submit" value="立即是注册"/>
+				</form>
+			</article>
+		</div>
+		<div id="feiwu">
+			
+		</div>
+		<div id="fwrap">
+		</div>
+	</body>
+	<script src="src/js/jquery-1.9.0.js" type="text/javascript" charset="utf-8"></script>
+	<script src="src/js/register.js" type="text/javascript" charset="utf-8"></script>
+	<script src="dist/js/cookie.js" type="text/javascript" charset="utf-8"></script>
+</html>

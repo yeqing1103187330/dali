@@ -1,0 +1,192 @@
+/*公共尾巴*/
+
+body,
+ol,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+th,
+td,
+dl,
+dd,
+form,
+fieldset,
+legend,
+input,
+textarea,
+select {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font: 12px "宋体","Arial Narrow",HELVETICA;
+  background: #fff; }
+
+a {
+  color: #172c45;
+  text-decoration: none; }
+
+a:hover {
+  color: #cd0200; }
+
+em {
+  font-style: normal; }
+
+li {
+  list-style: none; }
+
+img {
+  border: 0;
+  vertical-align: middle; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+p {
+  word-wrap: break-word; }
+
+i {
+  font-style: normal; }
+
+li, span, i, img, a {
+  cursor: pointer; }
+
+.noborder {
+  border: 0; }
+
+.left {
+  floaT: left; }
+
+.right {
+  float: right; }
+
+.clearBoth {
+  clear: both; }
+
+
+
+#foot_box {
+  width: 100%;
+  height: 556px;
+  background: #f5f5f5; }
+
+footer {
+  width: 1200px;
+  height: 402px;
+  margin: 0 auto;
+  background: #FFFFFF; }
+  footer #foot_salable {
+    width: 1200px;
+    height: 132px; }
+    footer #foot_salable > ul {
+      width: 1200px;
+      height: 132px;
+      margin: 0 auto;
+      border-bottom: 1px solid #CCCCCC;
+      display: flex;
+      justify-content: center; }
+      footer #foot_salable > ul li {
+        width: 25%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        footer #foot_salable > ul li div {
+          margin-left: 20px; }
+          footer #foot_salable > ul li div p {
+            margin: 10px 0;
+            color: #666666; }
+          footer #foot_salable > ul li div h3 {
+            color: #626262; }
+      footer #foot_salable > ul > li:nth-child(1) i {
+        display: block;
+        width: 70px;
+        height: 132px;
+        background: url(../image/slogenIcoB.png) no-repeat 0 31px; }
+      footer #foot_salable > ul > li:nth-child(2) i {
+        display: block;
+        width: 70px;
+        height: 132px;
+        background: url(../image/slogenIcoB.png) no-repeat -74px 31px; }
+      footer #foot_salable > ul > li:nth-child(3) i {
+        display: block;
+        width: 70px;
+        height: 132px;
+        background: url(../image/slogenIcoB.png) no-repeat -144px 31px; }
+      footer #foot_salable > ul > li:nth-child(4) i {
+        display: block;
+        width: 70px;
+        height: 132px;
+        background: url(../image/slogenIcoB.png) no-repeat -214px 31px; }
+  footer #foot_bottom {
+    width: 1200;
+    height: 270px; }
+    footer #foot_bottom ul {
+      width: 1210px;
+      height: auto;
+      margin: 0 auto; }
+      footer #foot_bottom ul > li {
+        float: left;
+        margin: 24px 42px 0 42px;
+        text-align: center; }
+        footer #foot_bottom ul > li h4 {
+          font-size: 17px;
+          line-height: 36px; }
+        footer #foot_bottom ul > li p {
+          font-size: 12px;
+          line-height: 36px;
+          color: #666666; }
+    footer #foot_bottom li:nth-child(6) {
+      width: 132px;
+      height: 200px;
+      margin-left: 170px; }
+      footer #foot_bottom li:nth-child(6) p {
+        font-size: 15px;
+        color: #4C4C4C;
+        text-align: center;
+        line-height: 68px; }
+      footer #foot_bottom li:nth-child(6) span {
+        display: block;
+        width: 130px;
+        height: 130px; }
+        footer #foot_bottom li:nth-child(6) span img {
+          width: 100%;
+          height: 100%; }
+
+#vacancy {
+  width: 100%;
+  height: 30px;
+  background: #f5f5f5; }
+
+/*<!--版权所有-->*/
+#copy {
+  width: 1200px;
+  height: 156px;
+  margin: 0 auto;
+  text-align: center; }
+  #copy a {
+    line-height: 34px;
+    color: #666666; }
+    #copy a:hover {
+      color: dodgerblue; }
+  #copy span {
+    margin: 0 10px;
+    color: #666666; }
+  #copy p:nth-child(2) {
+    line-height: 24px;
+    color: #666666; }
+  #copy p:nth-child(3) {
+    color: #666666;
+    line-height: 16px; }
+  #copy i {
+    position: relative;
+    float: right;
+    right: 260px;
+    bottom: 40px; }

@@ -1,0 +1,362 @@
+/*/共共头部css/*/
+body,
+ol,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+th,
+td,
+dl,
+dd,
+form,
+fieldset,
+legend,
+input,
+textarea,
+select {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font: 12px "宋体","Arial Narrow",HELVETICA;
+  background: #fff; }
+
+a {
+  color: #172c45;
+  text-decoration: none; }
+
+a:hover {
+  color: #cd0200; }
+
+em {
+  font-style: normal; }
+
+li {
+  list-style: none; }
+
+img {
+  border: 0;
+  vertical-align: middle; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+p {
+  word-wrap: break-word; }
+
+i {
+  font-style: normal; }
+
+li, span, i, img, a {
+  cursor: pointer; }
+
+.noborder {
+  border: 0; }
+
+.left {
+  floaT: left; }
+
+.right {
+  float: right; }
+
+.clearBoth {
+  clear: both; }
+
+/*@mixin wh($width,$height){
+    width: $width;
+    height:$height;
+}
+*/
+#headerbox {
+  width: 100%;
+  height: auto; }
+
+/*头部*/
+header {
+  width: 1200px;
+  height: 300px;
+  margin: 0 auto;
+  /*登陆部分*/
+  /*登陆跳结束*/ }
+  header #header_top {
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid silver;
+    background: #f3f3f3; }
+    header #header_top .left {
+      border: 1px solid silver;
+      border-top: none;
+      border-bottom: none;
+      position: relative;
+      width: 188px; }
+      header #header_top .left > span {
+        color: #999999;
+        line-height: 30px;
+        text-align: center; }
+      header #header_top .left > a {
+        color: #4496ee;
+        line-height: 30px;
+        text-align: center; }
+      header #header_top .left em {
+        width: 42px;
+        height: 14px;
+        position: absolute;
+        border: 1px solid #CCCCCC;
+        border-top: none;
+        text-align: center;
+        color: silver;
+        left: 66px;
+        top: 30px;
+        background: #FFFFFF;
+        cursor: pointer; }
+      header #header_top .left #message {
+        display: none;
+        width: 240px;
+        height: 120px;
+        position: absolute;
+        left: -3px;
+        background: #FFFFFF;
+        border: 1px solid #CCCCCC; }
+        header #header_top .left #message b {
+          display: inline-block;
+          width: 46px;
+          height: 46px;
+          border: 1px solid #CCCCCC;
+          float: left;
+          margin: 20px; }
+        header #header_top .left #message span {
+          margin-top: 38px;
+          float: left; }
+        header #header_top .left #message a {
+          display: inline-block;
+          width: 49.5%;
+          height: 30px;
+          line-height: 30px;
+          text-align: center;
+          background: darkorange; }
+        header #header_top .left #message a:nth-child(3) {
+          position: absolute;
+          bottom: 0;
+          left: 0; }
+        header #header_top .left #message a:nth-child(4) {
+          position: absolute;
+          bottom: 0;
+          right: 0; }
+    header #header_top .right1 ul {
+      width: 485px;
+      height: 30px;
+      float: right; }
+      header #header_top .right1 ul li:nth-child(1) {
+        margin-left: 40px; }
+      header #header_top .right1 ul li:nth-child(5):hover div {
+        display: block; }
+      header #header_top .right1 ul li:nth-child(5) div {
+        display: none;
+        width: 160px;
+        height: 60px;
+        background: #FFFFFF;
+        position: absolute;
+        top: 30px;
+        left: -79px; }
+        header #header_top .right1 ul li:nth-child(5) div a {
+          display: inline-block;
+          float: left;
+          width: 50%;
+          height: 50%;
+          line-height: 36px; }
+          header #header_top .right1 ul li:nth-child(5) div a:hover {
+            color: dodgerblue; }
+      header #header_top .right1 ul li:nth-child(7):hover div {
+        display: block; }
+      header #header_top .right1 ul li:nth-child(7) div {
+        display: none;
+        width: 100px;
+        height: 150px;
+        border: 1px solid #CCCCCC;
+        position: absolute;
+        top: 30px;
+        background: #FFFFFF; }
+        header #header_top .right1 ul li:nth-child(7) div img {
+          width: 80px;
+          height: 80px;
+          margin-top: 10px; }
+        header #header_top .right1 ul li:nth-child(7) div p {
+          height: 24px; }
+      header #header_top .right1 ul li:nth-child(9):hover div {
+        display: block; }
+      header #header_top .right1 ul li:nth-child(9) > div {
+        display: none;
+        position: absolute;
+        left: -72px;
+        width: 153px;
+        height: 90px;
+        padding: 10px 0 10px 10px;
+        background: #FFFFFF; }
+        header #header_top .right1 ul li:nth-child(9) > div p {
+          float: left;
+          width: 66px;
+          margin-left: 8px;
+          display: inline;
+          line-height: 30px;
+          height: 30px;
+          overflow: hidden; }
+          header #header_top .right1 ul li:nth-child(9) > div p:hover {
+            color: dodgerblue; }
+      header #header_top .right1 ul li {
+        width: auto;
+        height: 30px;
+        display: inline-block;
+        text-align: center;
+        line-height: 30px;
+        color: #666666;
+        position: relative; }
+        header #header_top .right1 ul li em {
+          display: inline-block;
+          width: 20px;
+          height: 20px;
+          position: absolute;
+          background: pink;
+          top: 5px;
+          left: -24px;
+          background: url(../image/iconBase.png) no-repeat 0 0; }
+        header #header_top .right1 ul li i {
+          color: red;
+          font-weight: bold; }
+        header #header_top .right1 ul li span {
+          display: inline-block;
+          width: 8px;
+          height: 6px;
+          margin: 0 8px;
+          background: url(../image/iconBase.png) no-repeat 0 -86px; }
+      header #header_top .right1 ul span {
+        color: #DDDDDD; }
+  header #header_concent {
+    /*图片*/
+    width: 100%;
+    height: 90px; }
+  header #header_bbottom {
+    width: 100%;
+    height: 178px;
+    border-bottom: 2px solid #3184dd; }
+    header #header_bbottom #header_bbottom_top {
+      margin-top: 33px;
+      display: flex;
+      justify-content: space-between;
+      /*log部分*/
+      /*搜索框部分*/
+      /*订单查询 购物车*/ }
+      header #header_bbottom #header_bbottom_top #log_left i {
+        display: block;
+        margin-top: 2px; }
+        header #header_bbottom #header_bbottom_top #log_left i:hover {
+          color: dodgerblue; }
+      header #header_bbottom #header_bbottom_top #input_center > div {
+        width: 600px;
+        height: 40px; }
+        header #header_bbottom #header_bbottom_top #input_center > div input {
+          width: 493px;
+          height: 36px;
+          border: 2px solid #4496ee;
+          outline: none;
+          float: left; }
+        header #header_bbottom #header_bbottom_top #input_center > div > div {
+          width: 99px;
+          height: 36px;
+          border: 2px solid #4496ee;
+          background: #4496ee;
+          display: inline-block;
+          font-size: 15px;
+          color: #FFFFFF;
+          line-height: 36px;
+          text-align: center;
+          float: left;
+          cursor: pointer; }
+      header #header_bbottom #header_bbottom_top #input_center ul li {
+        float: left;
+        margin: 6px 7px;
+        color: #666666; }
+        header #header_bbottom #header_bbottom_top #input_center ul li:hover {
+          color: dodgerblue; }
+      header #header_bbottom #header_bbottom_top #shopping_right {
+        width: 198px;
+        height: 40px;
+        background: #4496ee; }
+        header #header_bbottom #header_bbottom_top #shopping_right div:nth-child(1) {
+          width: 70px;
+          height: 40px;
+          float: left;
+          background: #f2f6f9; }
+          header #header_bbottom #header_bbottom_top #shopping_right div:nth-child(1) span {
+            display: block;
+            width: 24px;
+            height: 16px;
+            background: url(../image/iconBase.png) no-repeat 0 -36px;
+            margin-top: 5px;
+            margin-left: 24px; }
+          header #header_bbottom #header_bbottom_top #shopping_right div:nth-child(1) p {
+            color: #7b7cb4;
+            text-align: center;
+            margin-top: 2px; }
+        header #header_bbottom #header_bbottom_top #shopping_right div:nth-child(2) {
+          float: left;
+          color: #FFFFFF; }
+          header #header_bbottom #header_bbottom_top #shopping_right div:nth-child(2) i {
+            display: inline-block;
+            width: 18px;
+            height: 14px;
+            background: url(../image/iconBase.png) no-repeat 0 -160px;
+            margin-top: 14px;
+            margin-left: 20px; }
+          header #header_bbottom #header_bbottom_top #shopping_right div:nth-child(2) strong {
+            text-align: center;
+            margin-left: 7px; }
+          header #header_bbottom #header_bbottom_top #shopping_right div:nth-child(2) span {
+            text-align: center;
+            margin-left: 7px;
+            font-weight: bolder; }
+    header #header_bbottom #header_bbottom_bottom {
+      margin-top: 61px; }
+      header #header_bbottom #header_bbottom_bottom > span {
+        margin: 0 13px;
+        color: #cfbdb7; }
+      header #header_bbottom #header_bbottom_bottom > a {
+        display: inline-block;
+        text-decoration: none;
+        font-size: 15px; }
+        header #header_bbottom #header_bbottom_bottom > a:hover {
+          color: dodgerblue; }
+      header #header_bbottom #header_bbottom_bottom a:nth-child(1) {
+        width: 190px;
+        height: 40px;
+        font-size: 16px;
+        background: #3184dd;
+        color: #FFFFFF;
+        text-align: center;
+        line-height: 40px; }
+      header #header_bbottom #header_bbottom_bottom a:nth-child(2) {
+        margin-left: 20px;
+        color: dodgerblue; }
+      header #header_bbottom #header_bbottom_bottom a:last-child {
+        display: inline-block;
+        float: right;
+        line-height: 40px; }
+        header #header_bbottom #header_bbottom_bottom a:last-child em {
+          display: inline-block;
+          width: 20px;
+          height: 20px;
+          vertical-align: middle;
+          background: url(../image/iconBase.png) no-repeat 0 -243px; }
+        header #header_bbottom #header_bbottom_bottom a:last-child span:nth-child(2) {
+          font-size: 15px; }
+        header #header_bbottom #header_bbottom_bottom a:last-child span:nth-child(3) {
+          font-size: 15px;
+          margin-right: 10px;
+          color: dodgerblue; }
+          
